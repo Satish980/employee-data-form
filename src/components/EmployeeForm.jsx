@@ -29,7 +29,7 @@ const EmployeeForm = () => {
       alert("Mandatory field(s) missing.");
     } else {
       setFormError({});
-      console.log("Form Data:", employeeData);
+      console.log("Employee Details:", employeeData);
       alert("Data is saved.");
     }
   };
