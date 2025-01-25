@@ -26,7 +26,9 @@ const EmployeeForm = () => {
 
     if (Object.keys(validationErrors).length > 0) {
       setFormError(validationErrors);
-      alert("Mandatory field(s) missing.");
+      if (validationErrors?.isRequiredFieldMissed) {
+        alert("Mandatory field(s) missing.");
+      }
     } else {
       setFormError({});
       console.log("Employee Details:", employeeData);
