@@ -1,6 +1,6 @@
 # Employee Form Documentation
 
-## Overview
+
 A React-based application that includes an employee form with validation. Users can fill out the form, and appropriate alerts are displayed based on validation rules.
 
 ---
