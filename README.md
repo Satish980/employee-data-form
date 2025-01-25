@@ -1,4 +1,4 @@
-# Employee Form Assignment
+# [Employee Form Assignment](https://employee-data-for-980.netlify.app/)
 
 
 This assignment includes an employee form with validation. Users can fill out the form, and appropriate alerts are displayed based on validation rules.
@@ -10,6 +10,7 @@ This assignment includes an employee form with validation. Users can fill out th
 - **JavaScript**: Core logic for the application.
 - **CSS**: Styling for the form and components.
 - **Vite**: For fast bundling and development.
+- **Netlify**: For [deployment](https://employee-data-for-980.netlify.app/). 
 
 ---
 
