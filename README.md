@@ -39,7 +39,7 @@ Make sure you have the following installed:
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/Satish980/employee-data-form.git
-   cd project-directory
+   cd employee-data-form
    ```
 
 2. **Install Dependencies**
@@ -56,12 +56,5 @@ Make sure you have the following installed:
    yarn dev
    ```
    This will start the development server. Check the port where server is running and open in the browser.
-
-4. **Build for Production**
-   ```bash
-   npm run build
-   # or
-   yarn build
-   ```
 
 ---
