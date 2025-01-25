@@ -1,7 +1,7 @@
-# Employee Form Documentation
+# Employee Form Assignment
 
 
-A React-based application that includes an employee form with validation. Users can fill out the form, and appropriate alerts are displayed based on validation rules.
+This assignment includes an employee form with validation. Users can fill out the form, and appropriate alerts are displayed based on validation rules.
 
 ---
 
