@@ -38,7 +38,7 @@ Make sure you have the following installed:
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Satish980/employee-data-form.git
    cd project-directory
    ```
 
@@ -55,7 +55,7 @@ Make sure you have the following installed:
    # or
    yarn dev
    ```
-   This will start the development server. Open your browser and navigate to `http://localhost:3000`.
+   This will start the development server. Check the port where server is running and open in the browser.
 
 4. **Build for Production**
    ```bash
@@ -63,6 +63,5 @@ Make sure you have the following installed:
    # or
    yarn build
    ```
-   The production-ready files will be generated in the `dist` folder.
 
 ---
