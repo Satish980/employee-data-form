@@ -55,6 +55,6 @@ Make sure you have the following installed:
    # or
    yarn dev
    ```
-   This will start the development server. Check the port where server is running and open in the browser.
+   This will start the development server. Check the port where server is running, open the url in the browser.
 
 ---
