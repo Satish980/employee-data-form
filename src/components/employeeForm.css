@@ -69,7 +69,6 @@ textarea {
     font-size: 14px;
 }
 
-/* Media Query for Mobile Devices */
 @media (max-width: 768px) {
     .form-container {
         max-width: 90%;
@@ -97,7 +96,6 @@ textarea {
     }
 }
 
-/* Media Query for Extra Small Devices (e.g., phones) */
 @media (max-width: 480px) {
     .form-container {
         margin: 10px auto;
@@ -121,5 +119,6 @@ textarea {
     .submit-button {
         font-size: 12px;
         padding: 6px 10px;
+        width: 100%;
     }
 }

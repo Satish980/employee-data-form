@@ -4,6 +4,7 @@ import { validateData, MAX_DATE } from "../utils";
 import FormField from "./FormField";
 
 const EmployeeForm = () => {
+  // employeeData state to store form data
   const [employeeData, setEmployeeData] = useState({
     firstName: "",
     middleName: "",
@@ -15,8 +16,10 @@ const EmployeeForm = () => {
     address: "",
   });
 
+  // formError state to store errors
   const [formError, setFormError] = useState({});
 
+  // handling form submission
   const handleSubmit = (e) => {
     e.preventDefault();
     const validationErrors = validateData(employeeData);
@@ -31,6 +34,7 @@ const EmployeeForm = () => {
     }
   };
 
+  // handling field changes
   const handleChange = (e) => {
     const { name, value } = e.target;
     setEmployeeData({ ...employeeData, [name]: value });
@@ -43,6 +47,8 @@ const EmployeeForm = () => {
         <p>
           Fields marked with <span className="required">*</span> are mandatory.
         </p>
+
+        {/* Name Fields */}
         <FormField
           label="First Name"
           name="firstName"
@@ -71,6 +77,8 @@ const EmployeeForm = () => {
           error={formError.lastName}
           required
         />
+
+        {/* Date of Birth Field */}
         <FormField
           label="Date of Birth"
           name="dateOfBirth"
@@ -82,6 +90,8 @@ const EmployeeForm = () => {
           max={MAX_DATE}
           required
         />
+
+        {/* Phone Number Field */}
         <FormField
           label="Phone Number"
           name="phoneNumber"
@@ -92,6 +102,8 @@ const EmployeeForm = () => {
           error={formError.phoneNumber}
           required
         />
+
+        {/* Email Field */}
         <FormField
           label="Email"
           name="email"
@@ -102,6 +114,8 @@ const EmployeeForm = () => {
           error={formError.email}
           required
         />
+
+        {/* Hobbies Field */}
         <FormField
           label="Hobbies"
           name="hobbies"
@@ -110,6 +124,8 @@ const EmployeeForm = () => {
           onChange={handleChange}
           placeholder="Enter Hobbies"
         />
+
+        {/* Address Field */}
         <FormField
           label="Address"
           name="address"
